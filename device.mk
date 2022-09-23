@@ -103,10 +103,10 @@ TW_LOAD_VENDOR_MODULES := "moto_f_usbnet.ko nova_0flash_mmi.ko mmi-smbcharger-ii
 
 TARGET_RECOVERY_DEVICE_MODULES += \
     libandroidicu \
-    libdisplayconfig.qti \
     libion \
     vendor.display.config@1.0 \
-    vendor.display.config@2.0
+    vendor.display.config@2.0 \
+    libdisplayconfig.qti
 
 RECOVERY_LIBRARY_SOURCE_FILES += \
     $(TARGET_OUT_SHARED_LIBRARIES)/libion.so \
