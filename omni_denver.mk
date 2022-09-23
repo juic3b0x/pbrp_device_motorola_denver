@@ -17,7 +17,7 @@ $(call inherit-product, vendor/pb/config/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := denver
-PRODUCT_NAME := twrp_denver
+PRODUCT_NAME := omni_denver
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := moto g stylus 5G
 PRODUCT_MANUFACTURER := motorola
